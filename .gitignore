@@ -1,0 +1,11 @@
+docs/*.rst
+docs/*.html
+docs/*.css
+bin/
+man/
+*~
+\#*\#
+*.[Ff][Aa][Ss][Ll]
+**/*~
+**/\#*\#
+**/*.[Ff][Aa][Ss][Ll]
