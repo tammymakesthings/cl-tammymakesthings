@@ -33,12 +33,17 @@
   :author "Tammy Cravit <tammy@tammymakesthings.com>"
   :license "MIT"
 
-  :depends-on (:tammymakesthings :fiveam)
+  :depends-on (
+	       :tammymakesthings 
+	       :fiveam
+	       )
 
   :serial t
-  :components ((:module "test"
+  :components (
+	       (:module "test"
                 :serial t
-                :components ((:file "package")
+                :components (
+			     (:file "package")
                              (:file "base")
 			     )))
 
